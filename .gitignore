@@ -1,0 +1,13 @@
+# 용량 큰 외부 의존성 (따로 설치)
+PX4-Autopilot/
+venv/
+.venv/
+
+# 자동 생성 파일
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+
+# YOLO 가중치 (ultralytics가 처음 실행할 때 자동으로 받음)
+*.pt

@@ -5,6 +5,17 @@
 
 > 환경: MacBook (Apple Silicon), macOS · PX4 SITL · Gazebo 8 · MAVSDK 4 · YOLO (Ultralytics)
 
+<p align="center">
+  <img src="docs/images/race.gif" width="640" alt="추격 시점으로 본 코스 자동 통과">
+  <br><sub>코스 자동 통과 (추격 시점). 오른쪽 위 작은 화면은 드론 카메라이고, 초록 박스가 카메라로 찾은 게이트 구멍입니다.</sub>
+</p>
+
+| 드론 카메라: 게이트 인식 | 추격 시점 | 위에서 보기 |
+|:---:|:---:|:---:|
+| ![드론 카메라](docs/images/drone_cam.jpg) | ![추격 시점](docs/images/chase.jpg) | ![위에서 보기](docs/images/top.jpg) |
+
+`drone --auto`로 실제로 돌려서 찍은 화면입니다. 이 실행에서는 게이트 6개를 60.3초에 완주했습니다.
+
 ---
 
 ## ✨ 주요 기능
